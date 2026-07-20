@@ -162,8 +162,6 @@ AccessBtn.MouseButton1Click:Connect(function()
 end)
 
 print("SERAPH HUB cargado - Key: seraph")
--- ==================== SERAPH HUB - PARTE 2 (Tabs y Funciones) ====================
-
 local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
