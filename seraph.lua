@@ -145,24 +145,7 @@ AccessBtn.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Librería
 
         -- ==================== EJECUTAR PARTE 2 ====================
-        loadstring([[ 
-            -- Pega aquí toda la PARTE 2 (el código grande)
-        ]])()
-
-    else
-        AccessLabel.Text = "INVALID LICENSE"
-        TweenService:Create(AccessBtn, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(150,0,0)}):Play()
-        for i = 1,6 do
-            MainFrame.Position += UDim2.new(0, i%2 == 0 and 5 or -5, 0, 0)
-            task.wait(0.05)
-        end
-        task.wait(1)
-        AccessLabel.Text = "INITIALIZE ACCESS"
-    end
-end)
-
-print("SERAPH HUB cargado - Key: seraph")
-local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
+        loadstring([[ local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
     can_resize = true,
@@ -245,3 +228,19 @@ end)
 -- Puedes pegar directamente todo lo que tenías en esas secciones.
 
 print("🎉 SERAPH HUB cargado completamente!")
+        ]])()
+
+    else
+        AccessLabel.Text = "INVALID LICENSE"
+        TweenService:Create(AccessBtn, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(150,0,0)}):Play()
+        for i = 1,6 do
+            MainFrame.Position += UDim2.new(0, i%2 == 0 and 5 or -5, 0, 0)
+            task.wait(0.05)
+        end
+        task.wait(1)
+        AccessLabel.Text = "INITIALIZE ACCESS"
+    end
+end)
+
+print("SERAPH HUB cargado - Key: seraph")
+
