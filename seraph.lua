@@ -177,28 +177,7 @@ AccessBtn.MouseButton1Click:Connect(function()
         -- Anti Fling, Lock Position, Infinite Jump, Walk on Water, etc.
 
         local antiKnockbackSwitch = MainTab:AddSwitch("Anti Fling", function(bool)
-            -- Tu código original aquí
-        end)
-        antiKnockbackSwitch:Set(true)
-
-        -- ... (el resto de tu script continúa igual)
-
-        print("SERAPH HUB cargado correctamente con tu librería.")
-
-    else
-        AccessLabel.Text = "INVALID LICENSE"
-        TweenService:Create(AccessBtn, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(150,0,0)}):Play()
-        for i = 1,6 do
-            MainFrame.Position += UDim2.new(0, i%2 == 0 and 5 or -5, 0, 0)
-            wait(0.05)
-        end
-        wait(1)
-        AccessLabel.Text = "INITIALIZE ACCESS"
-    end
-end)
-
-print("SERAPH HUB cargado - Key: seraph")
-local antiKnockbackSwitch =
+            -- Tu código original aquílocal antiKnockbackSwitch =
     MainTab:AddSwitch(
     "Anti Fling",
     function(bool)
@@ -2821,3 +2800,25 @@ Credits:AddLabel("Script Made by username:")
 Credits:AddLabel("Demon_misteriousX")
 Credits:AddLabel("I hope you like the script, for bugs or suggestions on my discord server")
 Credits:AddLabel("Discord Server:")
+
+        end)
+        antiKnockbackSwitch:Set(true)
+
+        -- ... (el resto de tu script continúa igual)
+
+        print("SERAPH HUB cargado correctamente con tu librería.")
+
+    else
+        AccessLabel.Text = "INVALID LICENSE"
+        TweenService:Create(AccessBtn, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(150,0,0)}):Play()
+        for i = 1,6 do
+            MainFrame.Position += UDim2.new(0, i%2 == 0 and 5 or -5, 0, 0)
+            wait(0.05)
+        end
+        wait(1)
+        AccessLabel.Text = "INITIALIZE ACCESS"
+    end
+end)
+
+print("SERAPH HUB cargado - Key: seraph")
+
