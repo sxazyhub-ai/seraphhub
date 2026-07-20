@@ -145,7 +145,7 @@ AccessBtn.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Librería
 
         -- ==================== EJECUTAR PARTE 2 ====================
-        loadstring(
+        loadstring([[
             -- ==================== SERAPH HUB - PARTE 2 (Tabs y Funciones) ====================
 
 local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
