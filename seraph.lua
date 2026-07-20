@@ -2789,13 +2789,13 @@ Gift:AddSwitch(" Auto Eat Everything", function(state)
 end)
 local Credits = window:AddTab("Credits")
 
-Credits:AddLabel("paid version")
+Credits:AddLabel("script gratuito del clan Z3R")
 Credits:AddLabel("Script Made by username:")
-Credits:AddLabel("Demon_misteriousX")
-Credits:AddLabel("I hope you like the script, for bugs or suggestions on my discord server")
+Credits:AddLabel("Bl4z3r_W1ll")
+Credits:AddLabel("like al script")
 Credits:AddLabel("Discord Server:")
 Credits:AddButton("Copy Link", function()
-setclipboard("https://discord.gg/Dbp6GU3PU")
+setclipboard("https://discord.gg/JVxbJ4s6d")
         end)
 
     else
