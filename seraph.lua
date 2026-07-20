@@ -142,8 +142,12 @@ AccessBtn.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
 
         print("✅ SERAPH HUB - Acceso concedido")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Lib
-           
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Librería
+
+        -- ==================== EJECUTAR PARTE 2 ====================
+        loadstring(
+            -- ==================== SERAPH HUB - PARTE 2 (Tabs y Funciones) ====================
+
 local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
@@ -227,7 +231,7 @@ end)
 -- Puedes pegar directamente todo lo que tenías en esas secciones.
 
 print("🎉 SERAPH HUB cargado completamente!")
-        ]]
+        ]])()
 
     else
         AccessLabel.Text = "INVALID LICENSE"
@@ -242,4 +246,3 @@ print("🎉 SERAPH HUB cargado completamente!")
 end)
 
 print("SERAPH HUB cargado - Key: seraph")
-
