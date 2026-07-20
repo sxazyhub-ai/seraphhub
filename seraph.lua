@@ -142,10 +142,8 @@ AccessBtn.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
 
         print("✅ SERAPH HUB - Acceso concedido")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Librería
-
-        -- ==================== EJECUTAR PARTE 2 ====================
-        loadstring([ local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Lib
+            local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
     can_resize = true,
