@@ -145,7 +145,7 @@ AccessBtn.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vhhvwvvchvvydvbff-wq/Script-/refs/heads/main/To%C3%B1itax%20librari"))() -- Librería
 
         -- ==================== EJECUTAR PARTE 2 ====================
-        loadstring([[ local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
+        loadstring([ local window = library:AddWindow("SERAPH HUB | "..LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
     can_resize = true,
@@ -228,7 +228,7 @@ end)
 -- Puedes pegar directamente todo lo que tenías en esas secciones.
 
 print("🎉 SERAPH HUB cargado completamente!")
-        ]])()
+        ]]
 
     else
         AccessLabel.Text = "INVALID LICENSE"
